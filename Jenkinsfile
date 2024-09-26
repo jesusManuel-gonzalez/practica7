@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonar') {
             steps {
-                git url: 'https://github.com/<nombre del repositorio>.git', credentialsId: '<ID-de-la-credencial>'
+                git url: 'https://github.com/jesusManuel-gonzalez/practica7.git', credentialsId: '<ID-de-la-credencial>'
             }
         }
         stage('Instalar Dependencias') {
